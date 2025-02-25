@@ -4,13 +4,18 @@ import { fn } from '@storybook/test';
 import { Button } from './Button';
 
 // so for a component i have one components (which would be button) but many variants ()
-// primary  hover state Focus State diabled state (Boolean)  then Outline same states + Action (same states)
+// primary  hover state Focus State diabled state (Boolean)  then Outline same states + Action (same sta) ? 
 
 const meta = {
   title: 'Components/Button',
   component: Button,
   parameters: {
     layout: 'centered',
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/8xlzYN0YouU38pmP0zD6bB/Content-Lion-Design-System?node-id=8-95',
+    },
+    // zeplinLink: "https://www.figma.com/design/8xlzYN0YouU38pmP0zD6bB/Content-Lion-Design-System?node-id=8-95",
   },
   tags: ['autodocs'],
   argTypes: {
