@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_da518e32f1c8519"
+    "prechromatic": "node -r dotenv/config",
+    "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.4",
@@ -44,5 +45,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
