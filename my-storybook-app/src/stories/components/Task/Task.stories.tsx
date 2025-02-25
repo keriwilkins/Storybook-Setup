@@ -14,7 +14,7 @@ export const ActionsData = {
 
 const meta = {
   component: Task,     // tells storybook which component we're documenting. 
-  title: 'Task',       // how this component appears in Storybook UI
+  title: 'Components/Task',       // how this component appears in Storybook UI
   tags: ['autodocs'],  // used for automatic documentation 
   excludeStories: /.*Data$/, // Prevents ActionsData from being treated as a "story." (It’s just helper data.)
   args: {                    //  This sets onArchiveTask and onPinTask automatically for all stories.

@@ -1,4 +1,4 @@
-import type { TaskData } from '../types';
+import type { TaskData } from './types';
   
   type TaskProps = {
     task: TaskData;   // should follow the prop structure of TaskData
