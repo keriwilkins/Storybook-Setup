@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 import './button.css';
+import './buttonSizes.css';
 
 export type ButtonProps = {
   label: string; 
@@ -32,7 +33,8 @@ export const Button = ({
       {...props}
     >
       <span className="btn-text">{label}</span>
-      {(size === 'medium' || size === 'large') && <span className="btn-icon">{icon}</span>}
+      {(size=== 'small' || size === 'medium' || size === 'large') }
+      {/* {(size === 'medium' || size === 'large') && <span className="btn-icon">{icon}</span>} */}
     </button>
     </>
   );
