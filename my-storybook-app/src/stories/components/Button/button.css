@@ -52,7 +52,7 @@
 }
 
 
-/* ----- VARIANT STATE STYLES ----- */
+/* ----- VARIANT CTA STATE STYLES ----- */
 .btn.default {
   opacity: 1;
 }
@@ -106,29 +106,7 @@
 }
 
 
-/* ----- VARIANT PRIMARY STATE STYLES ----- */
-.btn.primary.hover:hover {
-  background-color: #BC5B06; /*Orange/350*/
-  border: 2px solid #BC5B06;
-  border-radius: 4px;
-}
 
-.btn.primary.focused {
-  background-color: #E07A1A; /*Orange 100*/;
-  outline: 2px solid #F6D2B1; /*Surface/Default */
-}
-
-.btn.primary.selected {
-  background-color: #BC5B06; /*Orange/350*/
-  border: 2px solid #BC5B06;
-}
-
-.btn.primary.disabled {
-  background-color: #DADADA; /*Greyscale/Surface/Disabled*/
-  color: #9B9C9D; /*Greyscale/Text/Disabled*/
-  cursor: not-allowed;
-  border: hidden;
-}
 
 
 /* ----- VARIANT DESTRUCTIVE STATE STYLES ----- */
@@ -153,6 +131,7 @@
   color: #9B9C9D; /*Greyscale/Text/Disabled*/
   cursor: not-allowed;
   border: hidden;
+  color: var(--primary)
 }
 
 
