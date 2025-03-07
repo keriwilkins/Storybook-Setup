@@ -42,11 +42,13 @@
 .btn.cta .btn-text, /* CTA */
 .btn.primary .btn-text, /* PRIMARY */
 .btn.borderless .btn-text, /* BORDERLESS */
-.btn.destructive .btn-text /* DESTRUCTIVE */
+.btn.destructive .btn-text, /* DESTRUCTIVE */
+.btn.outline.hover:hover .btn-text /*OUTLINE */
 { color: #FFFFFF; /*Ivory/0*/ }
 
 .btn.cta.disabled .btn-text, 
 .btn.primary.disabled .btn-text, /* PRIMARY */
+.btn.outline.disabled .btn-text, /* OUTLINE */
 .btn.borderless.disabled .btn-text, /* BORDERLESS */
 .btn.destructive.disabled .btn-text /* DESTRUCTIVE */
 { color: #9B9C9D; /* Greyscale/Surface/Disabled */ }
@@ -67,7 +69,6 @@
 /* Outline Button */
 .btn.outline {
   background-color: transparent;
-  color: #38393A; /*Greyscale/Text/Body */
   border: 1px solid #E07A1A; /*Surface/Default */
 }
 
@@ -102,7 +103,6 @@
 
 .btn.cta.disabled {
   background-color: #DADADA; /*Greyscale/Surface/Disabled*/
-  color: #9B9C9D; /*Greyscale/Text/Disabled*/
   cursor: not-allowed;
 }
 
@@ -127,38 +127,28 @@
   cursor: not-allowed;
 }
 
+
 /* ----- VARIANT OUTLINE STATE STYLES ----- */
 .btn.outline.hover:hover {
-  background-color: #E07A1A; /*Surface/Default*/
-  border: 2px solid #E07A1A; /*Surface/Default */
-}
-.btn.outline.hover:hover .btn-text {
-  color: #FFFFFF; /*Ivory/0*/
+  background-color: #E07A1A; /*Border/Default*/
+  border: 1px solid #E07A1A; /*Border/Default*/
 }
 
 .btn.outline.focused {
   background-color: transparent;  
   border: 3px solid #F6D2B1; /*Border/Subtle*/ 
-  
 }
 
 .btn.outline.selected {
   background-color: #F6D2B1; /*Border/Subtle*/  
-  border: 2px solid #F6D2B1; /*Border/Subtle*/ 
-  
+  border: 1px solid #F6D2B1; /*Border/Subtle*/ 
 }
 
 .btn.outline.disabled {
   background-color: transparent; 
   border: 1px solid #9B9C9D; /*Greyscale/Text/Disabled*/
-  
   cursor: not-allowed;
 }
-.btn.outline.disabled .btn-text {
-  color: #9B9C9D; /*Ivory/0*/
-}
-
-
 
 
 
