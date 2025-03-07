@@ -37,7 +37,7 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-export const Interactive: Story = {};
+// export const Interactive: Story = {};
 
 export const CTA: Story = {
   args: {
