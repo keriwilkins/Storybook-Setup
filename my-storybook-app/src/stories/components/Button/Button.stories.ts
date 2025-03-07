@@ -16,6 +16,7 @@ const meta: Meta<typeof Button> = {
   },
   tags: ['autodocs'],
   argTypes: {
+    label: { control: 'text' },
     state: {
       control: 'select',
       options: ['default', 'hover', 'focused', 'selected', 'disabled'],
@@ -24,13 +25,17 @@ const meta: Meta<typeof Button> = {
       control: 'select',
       options: ['small', 'medium', 'large'],
     },
-    label: { control: 'text' },
     variant: {
-      table: {
-        disable: true,
-      },
+      control: 'select', // Dropdown for DEMO only
+      options: ['cta', 'primary', 'outline', 'borderless', 'destructive'], 
     },
-    icon: {table: {disable: true,}}
+    // variant: {
+    //   table: {
+    //     disable: true,
+    //   },
+    // },
+    icon: {table: {disable: true,}}, 
+    onClick: {table: {disable:true,}}
   },
 } 
 
