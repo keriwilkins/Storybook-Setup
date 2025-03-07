@@ -5,9 +5,12 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+.btn.default {
+  opacity: 1;
+}
 
 /* ----- BUTTON TYPOGRAPHY ----- */
-.btn.btn.small .btn-text{
+.btn.small .btn-text{
   color: #38393A;
   font-family: Lato;
   font-size: 14px;
@@ -16,7 +19,7 @@
   line-height: 17px; /* 121.429% */
 }
 
-.btn.btn.medium .btn-text {
+.btn.medium .btn-text {
   color: #38393A;
   font-family: Lato;
   font-size: 16px;
@@ -26,7 +29,7 @@
   letter-spacing: 0.1px;
 }
 
-.btn.btn.large .btn-text {
+.btn.large .btn-text {
   color: #38393A;
   font-family: Lato;
   font-size: 18px; 
@@ -36,20 +39,26 @@
   letter-spacing: 0.1px;
 }
 
+.btn.cta .btn-text, /* CTA */
+.btn.primary .btn-text, /* PRIMARY */
+.btn.borderless .btn-text, /* BORDERLESS */
+.btn.destructive .btn-text /* DESTRUCTIVE */
+{ color: #FFFFFF; /*Ivory/0*/ }
+
+.btn.cta.disabled .btn-text 
+{ color: #9B9C9D; /* Greyscale/Surface/Disabled */ }
+
 /* ----- ALL DEFAULT TYPE STYLES ----- */
 
 /* CTA Button */
 .btn.cta {
   background-color: #060809; /*Obsedian 300*/
-  color: #FFF; /*Ivory 0*/
   border-radius: 4px;
-  border: 2px solid #060809;
 }
 
 /* Primary Button */
 .btn.primary {
   background-color: #d48200;
-  color: #FFF; /*Ivory 0*/
   border-radius: 4px;
   border: 2px solid #d48200;
 }
@@ -65,27 +74,22 @@
 /* Borderless Button */
 .btn.borderless {
   background-color: transparent;
-  color: #FFF; /*Ivory 0*/
   border: hidden;
 }
 
 /* Destructive Button */
 .btn.destructive {
   background-color: #D63B25; /*ErrorRed/300 */;
-  color: #FFF; /*Ivory 0*/
   border-radius: 4px;
   border: 2px solid #D63B25;
 }
 
 
+
 /* ----- VARIANT CTA STATE STYLES ----- */
-.btn.default {
-  opacity: 1;
-}
 
 .btn.cta.hover:hover {
-  background-color: #38393A; /*Slate 250*/
-  border: 2px solid #38393A; 
+  background-color: #38393A; /*Greyscale/250*/
   border-radius: 4px;
 }
 
@@ -102,7 +106,6 @@
   background-color: #DADADA; /*Greyscale/Surface/Disabled*/
   color: #9B9C9D; /*Greyscale/Text/Disabled*/
   cursor: not-allowed;
-  border: hidden;
 }
 
 
