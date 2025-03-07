@@ -41,7 +41,6 @@
 
 .btn.cta .btn-text, /* CTA */
 .btn.primary .btn-text, /* PRIMARY */
-.btn.borderless .btn-text, /* BORDERLESS */
 .btn.destructive .btn-text, /* DESTRUCTIVE */
 .btn.outline.hover:hover .btn-text /*OUTLINE */
 { color: #FFFFFF; /*Ivory/0*/ }
@@ -151,6 +150,27 @@
 }
 
 
+/* ----- VARIANT BORDERLESS STATE STYLES ----- */
+.btn.borderless.hover:hover {
+  background-color: #F3F3ED; /*Ivory/100*/
+}
+
+.btn.borderless.focused {
+  background-color: transparent; 
+  border: 3px solid #EDEDE3; /*Ivory/150*/
+}
+
+.btn.borderless.selected {
+  background-color: #EDEDE3; /*Ivory/150*/
+}
+
+.btn.borderless.disabled {
+  background-color: transparent;
+  border: 1px solid #9B9C9D; /*Greyscale/Text/Disabled*/
+  cursor: not-allowed;
+}
+
+
 
 /* ----- VARIANT DESTRUCTIVE STATE STYLES ----- */
 .btn.destructive.hover:hover {
@@ -160,8 +180,8 @@
 }
 
 .btn.destructive.focused {
-  background-color: #D63B25; /*ErrorRed/300 */;
-  outline: 2px solid #F0B0A8; /*ErrorRed/150 */
+  background-color: #D63B25; /*ErrorRed/300 */
+  border: 2px solid #F0B0A8; /*ErrorRed/150 */
 }
 
 .btn.destructive.selected {
@@ -173,6 +193,4 @@
   background-color: #DADADA; /*Greyscale/Surface/Disabled*/
   color: #9B9C9D; /*Greyscale/Text/Disabled*/
   cursor: not-allowed;
-  border: hidden;
-  color: var(--primary)
 }
