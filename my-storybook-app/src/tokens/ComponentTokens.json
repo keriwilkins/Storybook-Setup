@@ -1,0 +1,62 @@
+{
+    "collections": [
+        {
+            "name": "Component Tokens",
+            "modes": [
+                "Small",
+                "Medium",
+                "Large"
+            ],
+            "variables": {
+                "Radius": {
+                    "type": "number",
+                    "values": {
+                        "Small": 4,
+                        "Medium": 4,
+                        "Large": 4
+                    }
+                },
+                "Spacing": {
+                    "type": "number",
+                    "values": {
+                        "Small": 4,
+                        "Medium": 8,
+                        "Large": 12
+                    }
+                },
+                "H-Padding": {
+                    "type": "number",
+                    "values": {
+                        "Small": 16,
+                        "Medium": 20,
+                        "Large": 24
+                    }
+                },
+                "V-Padding": {
+                    "type": "number",
+                    "values": {
+                        "Small": 8,
+                        "Medium": 12,
+                        "Large": 16
+                    }
+                },
+                "Full Padding": {
+                    "type": "number",
+                    "values": {
+                        "Small": 8,
+                        "Medium": 12,
+                        "Large": 16
+                    }
+                },
+                "Icon Size": {
+                    "type": "number",
+                    "values": {
+                        "Small": 16,
+                        "Medium": 20,
+                        "Large": 24
+                    }
+                }
+            }
+        }
+    ]
+}

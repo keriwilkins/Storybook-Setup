@@ -1,0 +1,92 @@
+{
+    "collections": [
+        {
+            "name": "Style Tokens",
+            "modes": [
+                "Mode 1"
+            ],
+            "variables": {
+                "Greyscale": {
+                    "Surface": {
+                        "Default": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/125"
+                            }
+                        },
+                        "Subtle": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/50"
+                            }
+                        },
+                        "Disabled": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/100"
+                            }
+                        }
+                    },
+                    "Border": {
+                        "Default": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/150"
+                            }
+                        },
+                        "Disabled": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/100"
+                            }
+                        },
+                        "Darker": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/200"
+                            }
+                        }
+                    },
+                    "Text": {
+                        "Title": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/300"
+                            }
+                        },
+                        "Body": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/250"
+                            }
+                        },
+                        "Subtitle": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/200"
+                            }
+                        },
+                        "Caption": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/200"
+                            }
+                        },
+                        "Negative": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/50"
+                            }
+                        },
+                        "Disabled": {
+                            "type": "color",
+                            "values": {
+                                "Mode 1": "Primitives:Greyscale/150"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

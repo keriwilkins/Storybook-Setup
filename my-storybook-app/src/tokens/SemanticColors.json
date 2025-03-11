@@ -1,0 +1,102 @@
+{
+    "collections": [
+        {
+            "name": "Semantic Colors",
+            "modes": [
+                "Primary",
+                "Error",
+                "Warning",
+                "Success"
+            ],
+            "variables": {
+                "Surface": {
+                    "Default": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/300",
+                            "Error": "Primitives:ErrorRed/300",
+                            "Warning": "Primitives:Orange/350",
+                            "Success": "Primitives:Green/350"
+                        }
+                    },
+                    "Lighter": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/200",
+                            "Error": "Primitives:ErrorRed/200",
+                            "Warning": "Primitives:Orange/150",
+                            "Success": "Primitives:Green/200"
+                        }
+                    },
+                    "Darker": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/400",
+                            "Error": "Primitives:ErrorRed/400",
+                            "Warning": "Primitives:Orange/450",
+                            "Success": "Primitives:Green/400"
+                        }
+                    },
+                    "Subtle": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/50",
+                            "Error": "Primitives:ErrorRed/50",
+                            "Warning": "Primitives:Orange/50",
+                            "Success": "Primitives:Green/50"
+                        }
+                    }
+                },
+                "Border": {
+                    "Default": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/300",
+                            "Error": "Primitives:ErrorRed/300",
+                            "Warning": "Primitives:Orange/350",
+                            "Success": "Primitives:Green/350"
+                        }
+                    },
+                    "Lighter": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/150",
+                            "Error": "Primitives:ErrorRed/200",
+                            "Warning": "Primitives:Orange/200",
+                            "Success": "Primitives:Green/250"
+                        }
+                    },
+                    "Darker": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/400",
+                            "Error": "Primitives:ErrorRed/400",
+                            "Warning": "Primitives:Orange/400",
+                            "Success": "Primitives:Green/400"
+                        }
+                    },
+                    "Subtle": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/100",
+                            "Error": "Primitives:ErrorRed/100",
+                            "Warning": "Primitives:Orange/100",
+                            "Success": "Primitives:Green/100"
+                        }
+                    }
+                },
+                "Text": {
+                    "Label": {
+                        "type": "color",
+                        "values": {
+                            "Primary": "Primitives:Orange/400",
+                            "Error": "Primitives:ErrorRed/400",
+                            "Warning": "Primitives:Orange/400",
+                            "Success": "Primitives:Green/400"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

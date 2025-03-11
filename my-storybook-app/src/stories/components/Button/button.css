@@ -91,7 +91,7 @@
 
 .btn.cta.focused {
   background-color: #060809; /*Obsedian 300*/;
-  border: 2px solid #6A6B6B; /*Greyscale/Border/Darker*/
+  border: 3px solid #6A6B6B; /*Greyscale/Border/Darker*/
 }
 
 .btn.cta.selected {
@@ -112,7 +112,7 @@
 
 .btn.primary.focused {
   background-color: #E07A1A; /*Surface/Darker */;
-  border: 2px solid #F6D2B1; /* Orange/100 */
+  border: 3px solid #F6D2B1; /* Orange/100 */
 }
 
 .btn.primary.selected {
@@ -133,7 +133,7 @@
 
 .btn.outline.focused {
   background-color: transparent;  
-  border: 2px solid #F6D2B1; /*Border/Subtle*/ 
+  border: 3px solid #F6D2B1; /*Border/Subtle*/ 
 }
 
 .btn.outline.selected {
@@ -155,7 +155,7 @@
 
 .btn.borderless.focused {
   background-color: transparent; 
-  border: 2px solid #EDEDE3; /*Ivory/150*/
+  border: 3px solid #EDEDE3; /*Ivory/150*/
 }
 
 .btn.borderless.selected {
@@ -177,7 +177,7 @@
 
 .btn.destructive.focused {
   background-color: #D63B25; /*ErrorRed/300 */
-  border: 2px solid #F0B0A8; /*ErrorRed/150 */
+  border: 3px solid #F0B0A8; /*ErrorRed/150 */
 }
 
 .btn.destructive.selected {
