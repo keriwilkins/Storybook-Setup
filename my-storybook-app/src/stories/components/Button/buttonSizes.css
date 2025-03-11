@@ -9,6 +9,15 @@
   width: 75px;
   height: 33px;
 }
+.btn.small.btn-right {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  width: 99px;
+  height: 33px;
+}
 
 .btn.medium {
   display: inline-flex;
@@ -18,6 +27,15 @@
   padding: 12px 20px;
   width: 90px;
   height: 46px; 
+}
+.btn.medium.btn-right {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  width: 118px;
+  height: 46px;
 }
 
 .btn.large {
@@ -29,13 +47,22 @@
   width: 104px;
   height: 56px; 
 }
+.btn.large.btn-right {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 24px;
+  width: 136px;
+  height: 56px;
+}
 
 /* ----- REACT ICONS STYLES ----- */
-/* .btn .btn-icon { */
-  /* font-size: 17px;
-  color: #161513;
+.btn-icon {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
-  padding-right: 20px;
-  justify-content: center; */
-/* } */
+  width: 16px;
+  height: 16px;
+  color: #FFFFFF; /*Ivory/0*/
+}
