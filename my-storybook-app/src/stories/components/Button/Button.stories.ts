@@ -25,15 +25,19 @@ const meta: Meta<typeof Button> = {
       control: 'select',
       options: ['small', 'medium', 'large'],
     },
-    variant: {
-      control: 'select', // Dropdown for DEMO only
-      options: ['cta', 'primary', 'outline', 'borderless', 'destructive'], 
+    view: {
+      control: 'select',
+      options: ['regular', 'right', 'left', 'icon'],
     },
     // variant: {
-    //   table: {
-    //     disable: true,
-    //   },
+    //   control: 'select', // Dropdown for DEMO only
+    //   options: ['cta', 'primary', 'outline', 'borderless', 'destructive'], 
     // },
+    variant: {
+      table: {
+        disable: true,
+      },
+    },
     icon: {table: {disable: true,}}, 
     onClick: {table: {disable:true,}}
   },
